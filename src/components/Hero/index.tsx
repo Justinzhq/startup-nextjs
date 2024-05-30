@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
         </div>
         <div style={{
-          backgroundImage: `url("/images/hero-bg.jpg")`,
+          backgroundImage: `url("/images/hero/hero-bg.jpg")`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
