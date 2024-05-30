@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="max-w-[600px] ml-auto text-left">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Visual Intelligence SCADA
+                  可视化 智能化 物联组态控制系统
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   Startup is free Next.js template for startups and SaaS
