@@ -20,7 +20,7 @@ const Hero = () => {
                   components, and sections you need to launch a complete
                   business website, built-with Next 13.x and Tailwind CSS.
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://nextjstemplates.com/templates/saas-starter-startup"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
@@ -33,12 +33,12 @@ const Hero = () => {
                   >
                     Star on GitHub
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
-        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+        {/* <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
             height="556"
@@ -175,7 +175,7 @@ const Hero = () => {
               </linearGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
         <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="364"
