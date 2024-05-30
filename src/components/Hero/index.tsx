@@ -38,13 +38,22 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute inset-0 z-[-1]">
+        <div style={{
+          backgroundImage: `url("/images/hero-bg.jpg")`,
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat'
+        }}>
+          {/* Your content here */}
+        </div>
+
+        {/* <div className="absolute inset-0 z-[-1]">
           <img
             src="/images/hero-bg.jpg"
             alt="Hero Background"
             className="object-cover w-full h-full"
           />
-        </div>
+        </div> */}
       </section>
     </>
   );
