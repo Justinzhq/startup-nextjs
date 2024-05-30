@@ -38,13 +38,21 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute inset-0 z-[-1]">
+
+        {/* <div className="absolute inset-0 z-[-1]">
           <img
             src="/images/hero/hero-bg.jpg"
             alt="Hero Background"
             className="object-cover w-full h-full"
           />
+        </div> */}
+        <div className="absolute inset-0 z-[-1]">
+          <video autoPlay muted loop className="object-cover w-full h-full">
+            <source src="/images/video/hero-bg.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
+
       </section>
     </>
   );
