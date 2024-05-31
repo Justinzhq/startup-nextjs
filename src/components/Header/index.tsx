@@ -67,7 +67,7 @@ const Header = () => {
                   src="/images/logo/logo.png"
                   alt="logo"
                   // width={140}
-                  height={24}
+                  height={16}
                   className="hidden w-full dark:block"
                 />
               </Link>
