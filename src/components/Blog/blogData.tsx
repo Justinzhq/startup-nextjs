@@ -17,7 +17,7 @@ const blogData: Blog[] = [
   {
     id: 2,
     title: "viSCADA Controller",
-    paragraph:"智能边缘计算与控制保障能源系统的无人值守高效运行",
+    paragraph:"智能边缘控制器保障能源系统的无人值守高效运行",
     image: "/images/blog/p-02.jpg",
     author: {
       name: "Musharof Chy",
@@ -30,7 +30,7 @@ const blogData: Blog[] = [
   {
     id: 3,
     title: "viSCADA Gateway",
-    paragraph:"",
+    paragraph:"数据采集与通信物联网关保障设备的互联互通与数据的安全传输",
     image: "/images/blog/p-03.jpg",
     author: {
       name: "",
