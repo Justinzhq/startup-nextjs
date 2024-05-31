@@ -17,7 +17,7 @@ const blogData: Blog[] = [
   {
     id: 2,
     title: "viSCADA Controller",
-    paragraph:"asdfasdf",
+    paragraph:"智能边缘计算与控制保障能源系统的无人值守高效运行",
     image: "/images/blog/p-02.jpg",
     author: {
       name: "Musharof Chy",
