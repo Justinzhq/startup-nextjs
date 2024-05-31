@@ -15,10 +15,10 @@ const Hero = () => {
                   能源物联网基础设施
                 </h1>
                 <p className="mb-5 text-base leading-relaxed text-black dark:text-white sm:text-xl md:text-2xl">
-                  更快捷的部署和扩展
+                  基于 Web 更快捷的部署和扩展
                 </p>
                 <p className="mb-12 text-xs !leading-relaxed text-body-color dark:text-white sm:text-lg md:text-xl">
-                  IT与OT融合的能源监测与远程控制解决方案，更加灵活、稳健且经济，致力加速能源数字化低碳转型。
+                  IT 与 OT 融合的能源监测与控制解决方案，更加灵活、稳健且经济，致力加速能源数字化低碳转型。
                 </p>
                 {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
