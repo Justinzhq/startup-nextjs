@@ -3,30 +3,36 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Home",
+    title: "产品",
     path: "/",
     newTab: false,
   },
   {
     id: 2,
-    title: "About",
-    path: "/about",
-    newTab: false,
-  },
-  {
-    id: 33,
-    title: "Blog",
+    title: "应用场景",
     path: "/blog",
     newTab: false,
   },
   {
     id: 3,
+    title: "文档",
+    path: "https://docs.viscada.net",
+    newTab: true,
+  },
+  {
+    id: 4,
+    title: "About",
+    path: "/about",
+    newTab: false,
+  },
+  {
+    id: 5,
     title: "Support",
     path: "/contact",
     newTab: false,
   },
   {
-    id: 4,
+    id: 6,
     title: "Pages",
     newTab: false,
     submenu: [
