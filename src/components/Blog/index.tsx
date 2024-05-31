@@ -15,7 +15,7 @@ const Blog = () => {
           center
         />
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-3 md:gap-x-6 lg:gap-x-8 xl:grid-cols-5">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-3 md:gap-x-5 lg:gap-x-6 xl:grid-cols-5">
           {blogData.map((blog) => (
             <div key={blog.id} className="w-full">
               <SingleBlog blog={blog} />
