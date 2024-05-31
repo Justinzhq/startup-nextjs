@@ -8,7 +8,7 @@ const Blog = () => {
       id="blog"
       className="bg-gray-light dark:bg-bg-color-dark py-16 md:py-20 lg:py-28"
     >
-      <div className="container">
+      <div className="container space-y-4">
         <SectionTitle
           title="viSCADA 产品套件"
           paragraph=""
