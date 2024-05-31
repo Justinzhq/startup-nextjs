@@ -4,7 +4,6 @@ const menuData: Menu[] = [
   {
     id: 1,
     title: "产品",
-    path: "/",
     newTab: false,
     submenu: [
       {
@@ -42,8 +41,39 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "应用场景",
-    path: "/blog",
     newTab: false,
+    submenu: [
+      {
+        id: 21,
+        title: "热力站无人值守",
+        path: "/blog-details",
+        newTab: false,
+      },
+      {
+        id: 22,
+        title: "智慧供热二网",
+        path: "/blog-details",
+        newTab: false,
+      },
+      {
+        id: 23,
+        title: "锅炉房无人值守",
+        path: "/blog-details",
+        newTab: false,
+      },
+      {
+        id: 24,
+        title: "油气场站无人值守",
+        path: "/blog-details",
+        newTab: false,
+      },
+      {
+        id: 25,
+        title: "风电远程诊断检修",
+        path: "/blog-details",
+        newTab: false,
+      },
+    ],
   },
   {
     id: 3,
