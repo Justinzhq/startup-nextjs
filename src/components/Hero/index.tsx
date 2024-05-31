@@ -20,7 +20,7 @@ const Hero = () => {
                 <p className="mb-12 text-[0.5rem] !leading-relaxed text-body-color dark:text-white sm:text-lg md:text-xl">
                   IT 与 OT 融合的能源监测与控制解决方案，更加灵活、稳健且经济，致力加速能源数字化低碳转型。
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <div className="flex flex-col items-center justify-start space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://nextjstemplates.com/templates/saas-starter-startup"
                     className="rounded-sm bg-primary px-12 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
