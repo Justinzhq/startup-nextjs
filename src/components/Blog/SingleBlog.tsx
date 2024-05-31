@@ -20,12 +20,12 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
           <h3>
             <Link
               href="/blog-details"
-              className="mb-4 block text-base font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-base"
+              className="mb-3 block text-base font-bold text-black hover:text-primary dark:text-white dark:hover:text-primary sm:text-base"
             >
               {title}
             </Link>
           </h3>
-          <p className="mb-6 border-b-0 border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
+          <p className="mb-3 border-b-0 border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
             {paragraph}
           </p>
           {/* <div className="flex items-center">
