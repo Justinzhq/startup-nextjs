@@ -4,7 +4,7 @@ const blogData: Blog[] = [
   {
     id: 1,
     title: "viSCADA Web",
-    paragraph:"sdfasdfsaf",
+    paragraph:"通过部署一套组态系统来打造一个工业物联网平台",
     image: "/images/blog/p-04.jpg",
     author: {
       name: "Samuyl Joshi",
