@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="max-w-[600px] ml-auto text-left">
-                <h1 className="mb-5 text-4xl font-bold leading-tight text-black dark:text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
+                <h1 className="mb-10 text-4xl font-bold leading-tight text-black dark:text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
                   能源物联网基础设施
                 </h1>
                 <p className="mb-5 text-base leading-relaxed text-black dark:text-white sm:text-xl md:text-2xl">
