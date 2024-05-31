@@ -3,7 +3,7 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "viSCADA Web",
     paragraph:"sdfasdfsaf",
     image: "/images/blog/p-04.jpg",
     author: {
@@ -16,7 +16,7 @@ const blogData: Blog[] = [
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "viSCADA Controller",
     paragraph:"asdfasdf",
     image: "/images/blog/p-02.jpg",
     author: {
@@ -29,7 +29,7 @@ const blogData: Blog[] = [
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "viSCADA Gateway",
     paragraph:"",
     image: "/images/blog/p-03.jpg",
     author: {
@@ -42,7 +42,7 @@ const blogData: Blog[] = [
   },
   {
     id: 4,
-    title: "Tips to quickly improve your coding speed.",
+    title: "viSCADA Egde",
     paragraph:"",
     image: "/images/blog/blog-03.jpg",
     author: {
@@ -55,7 +55,7 @@ const blogData: Blog[] = [
   }, 
   {
     id: 5,
-    title: "Tips to quickly improve your coding speed.",
+    title: "viSCADA App",
     paragraph:"",
     image: "/images/blog/blog-03.jpg",
     author: {
