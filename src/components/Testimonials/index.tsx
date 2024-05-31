@@ -38,7 +38,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="viSCADA 软硬件产品套件"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph=""
           center
         />
 
