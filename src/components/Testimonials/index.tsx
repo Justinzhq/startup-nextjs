@@ -46,7 +46,7 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="viSCADA 软硬件产品套件"
+          title="viSCADA 产品套件"
           paragraph=""
           center
         />
