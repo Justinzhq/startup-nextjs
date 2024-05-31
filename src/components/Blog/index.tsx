@@ -12,7 +12,7 @@ const Blog = () => {
         <SectionTitle
           title="viSCADA 产品套件"
           paragraph=""
-          mb="30px"
+          mb="50px"
         />
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-5 md:grid-cols-3 md:gap-x-6 lg:gap-x-6 xl:grid-cols-5">
