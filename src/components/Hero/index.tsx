@@ -14,11 +14,11 @@ const Hero = () => {
                 <h1 className="mb-5 text-4xl font-bold leading-tight text-black dark:text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
                   能源物联网基础设施
                 </h1>
+                <h3 className="mb-5 text-2xl font-semibold leading-relaxed text-black dark:text-white sm:text-3xl md:text-4xl">
+                  更快捷的部署和扩展
+                </h3>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-white sm:text-lg md:text-xl">
-                  Startup is free Next.js template for startups and SaaS
-                  business websites comes with all the essential pages,
-                  components, and sections you need to launch a complete
-                  business website, built-with Next 13.x and Tailwind CSS.
+                  IT/OT融合的能源监测与远程控制解决方案更加灵活、稳健且经济，致力加速能源数字化低碳转型。
                 </p>
                 {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
