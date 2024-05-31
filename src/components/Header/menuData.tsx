@@ -6,6 +6,38 @@ const menuData: Menu[] = [
     title: "产品",
     path: "/",
     newTab: false,
+    submenu: [
+      {
+        id: 11,
+        title: "viSCADA Web",
+        path: "/blog-details",
+        newTab: false,
+      },
+      {
+        id: 12,
+        title: "viSCADA Controller",
+        path: "/blog-details",
+        newTab: false,
+      },
+      {
+        id: 13,
+        title: "viSCADA Gateway",
+        path: "/blog-details",
+        newTab: false,
+      },
+      {
+        id: 14,
+        title: "viSCADA Edge",
+        path: "/blog-details",
+        newTab: false,
+      },
+      {
+        id: 15,
+        title: "viSCADA App",
+        path: "/blog-details",
+        newTab: false,
+      },
+    ],
   },
   {
     id: 2,
