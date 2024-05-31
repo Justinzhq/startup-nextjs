@@ -30,15 +30,6 @@ const testimonialData: Testimonial[] = [
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
-  {
-    id: 4,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
-  },
 ];
 
 const Testimonials = () => {
@@ -46,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="viSCADA 产品套件"
-          paragraph=""
+          title="What Our Users Says"
+          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           center
         />
 
