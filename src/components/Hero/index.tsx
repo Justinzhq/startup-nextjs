@@ -51,6 +51,7 @@ const Hero = () => {
             <source src="/images/video/hero-bg.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+          <div className="absolute inset-0 bg-black opacity-50"></div> {/* This is the overlay */}
         </div>
 
       </section>
