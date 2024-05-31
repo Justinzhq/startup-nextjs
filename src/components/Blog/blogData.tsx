@@ -30,7 +30,7 @@ const blogData: Blog[] = [
   {
     id: 3,
     title: "viSCADA Gateway",
-    paragraph:"边缘网关保障设备间的通信协议转换与数据安全传输",
+    paragraph:"边缘网关支持设备间的通信协议转换与数据安全传输",
     image: "/images/blog/p-03.jpg",
     author: {
       name: "",
@@ -43,7 +43,7 @@ const blogData: Blog[] = [
   {
     id: 4,
     title: "viSCADA Egde",
-    paragraph:"网关内置易于使用的配置工具来做边缘数据采集与转发",
+    paragraph:"网关内置易于使用的配置工具来做数据采集与转发",
     image: "/images/blog/blog-03.jpg",
     author: {
       name: "",
