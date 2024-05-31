@@ -60,7 +60,7 @@ const Header = () => {
                   src="/images/logo/logo-2.svg"
                   alt="logo"
                   // width={140}
-                  height={24}
+                  height={16}
                   className="w-full dark:hidden"
                 />
                 <Image
