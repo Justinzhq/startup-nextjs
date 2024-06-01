@@ -12,7 +12,7 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
+  title: "智慧能源物联网基础设施",
   description: "This is Home for Startup Nextjs Template",
   // other metadata
 };
