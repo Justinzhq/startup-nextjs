@@ -7,11 +7,11 @@ const Hero = () => {
         id="home"
         className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
-        {/* <div className="container">
+        <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="max-w-[600px] ml-auto text-left">
-                <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
+                <h2 className="mb-16 text-3xl font-bold leading-tight text-black dark:text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
                   能源物联网基础设施
                 </h2>
                 <p className="mb-5 text-base leading-relaxed text-black dark:text-white sm:text-xl md:text-2xl">
@@ -31,7 +31,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
         {/* <div className="absolute inset-0 z-[-1]">
           <img
