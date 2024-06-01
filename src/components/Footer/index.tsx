@@ -27,7 +27,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  智能物联网基础设施，助力能源数字化、智能化转型与可持续发展
+                  智慧能源物联网基础设施，助力能源数字化、智能化转型与可持续发展
                 </p>
                 {/* <div className="flex items-center">
                   <a
