@@ -24,14 +24,14 @@ export default function Home() {
       <Hero />
       <Blog />
       <Features />
-      <Video />
-      <Brands />
+      {/* <Video /> */}
       <AboutSectionOne />
       <AboutSectionTwo />
-      <Testimonials />
+      {/* <Testimonials /> */}
       {/* <Pricing /> */}
       <Blog />
-      <Contact />
+      <Brands />
+      {/* <Contact /> */}
     </>
   );
 }
