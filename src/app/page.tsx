@@ -1,6 +1,7 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
+import Product from "@/components/Products";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
@@ -10,6 +11,7 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
+import Solution from "@/components/Solutions";
 
 export const metadata: Metadata = {
   title: "智慧能源物联网基础设施",
@@ -22,14 +24,14 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <Blog />
+      <Product />
       <Features />
       {/* <Video /> */}
       <AboutSectionOne />
       <AboutSectionTwo />
       {/* <Testimonials /> */}
       {/* <Pricing /> */}
-      <Blog />
+      <Solution />
       {/* <Brands /> */}
       {/* <Contact /> */}
     </>
