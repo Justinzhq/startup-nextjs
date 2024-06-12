@@ -2,6 +2,12 @@ import { Menu } from "@/types/menu";
 
 const menuData: Menu[] = [
   {
+    id: 0,
+    title: "首页",
+    path: "/",
+    newTab: true,
+  },
+  {
     id: 1,
     title: "产品",
     newTab: false,
@@ -40,7 +46,7 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "应用场景",
+    title: "解决方案",
     newTab: false,
     submenu: [
       {
@@ -77,76 +83,27 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
+    title: "应用案例",
+    path: "/cases",
+    newTab: true,
+  },
+  {
+    id: 4,
     title: "文档",
     path: "https://docs.viscada.net",
     newTab: true,
   },
   {
-    id: 4,
-    title: "About",
-    path: "/about",
-    newTab: false,
-  },
-  {
     id: 5,
-    title: "Support",
-    path: "/contact",
-    newTab: false,
+    title: "资讯动态",
+    path: "/news",
+    newTab: true,
   },
   {
     id: 6,
-    title: "Pages",
-    newTab: false,
-    submenu: [
-      {
-        id: 41,
-        title: "About Page",
-        path: "/about",
-        newTab: false,
-      },
-      {
-        id: 42,
-        title: "Contact Page",
-        path: "/contact",
-        newTab: false,
-      },
-      {
-        id: 43,
-        title: "Blog Grid Page",
-        path: "/blog",
-        newTab: false,
-      },
-      {
-        id: 44,
-        title: "Blog Sidebar Page",
-        path: "/blog-sidebar",
-        newTab: false,
-      },
-      {
-        id: 45,
-        title: "Blog Details Page",
-        path: "/blog-details",
-        newTab: false,
-      },
-      {
-        id: 46,
-        title: "Sign In Page",
-        path: "/signin",
-        newTab: false,
-      },
-      {
-        id: 47,
-        title: "Sign Up Page",
-        path: "/signup",
-        newTab: false,
-      },
-      {
-        id: 48,
-        title: "Error Page",
-        path: "/error",
-        newTab: false,
-      },
-    ],
+    title: "关于",
+    path: "https://www.engipower.com/about",
+    newTab: true,
   },
 ];
 export default menuData;

@@ -12,13 +12,14 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="max-w-[600px] ml-auto text-left">
                 <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
-                  能源物联网基础设施
+                领先的“智慧能源”
+                  <p>物联网基础设施套件</p>
                 </h2>
-                <p className="mb-5 text-base leading-relaxed text-black dark:text-white sm:text-xl md:text-2xl">
-                  基于 Web 更快捷的部署和扩展
+                <p className="mb-5 text-base leading-relaxed text-black dark:text-white sm:text-lg md:text-xl">
+                  致力加速能源数智化低碳转型
                 </p>
-                <p className="mb-12 text-[0.5rem] !leading-relaxed text-body-color dark:text-white sm:text-lg md:text-xl">
-                  IT 与 OT 融合的能源监测与控制解决方案，更加灵活、稳健且经济，致力加速能源数字化低碳转型。
+                <p className="mb-12 text-base leading-relaxed text-body-color dark:text-white sm:text-lg md:text-xl">
+                  IT 与 OT 融合的能源监测与控制解决方案，基于 Web 的敏捷部署和扩展，更加灵活、稳健且经济。
                 </p>
                 <div className="flex flex-col items-center justify-start space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link

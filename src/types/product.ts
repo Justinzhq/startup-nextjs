@@ -3,4 +3,5 @@ export type Product = {
   title: string;
   paragraph: string;
   image: string;
+  href: string;
 };
