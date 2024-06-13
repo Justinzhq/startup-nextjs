@@ -19,14 +19,12 @@ const BlogDetailsPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h2 className="mb-8 text-3xl font-regular leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  viSCADA Web 能源物联网平台
+                  viSCADA App 移动端应用
                 </h2>
                 <div>
                   <p className="mb-10 text-base font-regular leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                  viSCADA Web 是一款智慧能源管理解决方案，专为现代能源管理需求设计。
-                  平台支持多种工业通信协议，具备灵活的组态与工业控制能力，确保用户能够高效地管理和优化设备及工艺流程。
-                  平台通过全面的告警管理、丰富的报表功能和严格的数据权限控制，帮助企业提高生产效率、降低运营风险，实现可持续发展的目标。
-                    
+                  viSCADA App 是一款针对工业自动化和能源物联网的移动端应用，
+                  它与 viSCADA Web 无缝集成，提供了远程实时监控、控制和工业过程管理的功能，使用户能够随时随地掌握能源系统的生产运行情况。
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
@@ -40,85 +38,71 @@ const BlogDetailsPage = () => {
                   </div>
                  
                   <h3 className="font-xl mb-10 font-regular leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    设备数据采集与转发
+                  实时监控
                   </h3>
-                  <p className="mb-10 text-base font-regular leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                  支持多种协议的设备数据采集、以及系统间数据对接，支持时间对齐，确保平台的开放性和灵活性
-                  </p>
                   <ul className="mb-10 list-inside list-disc text-body-color">
                     <li className="mb-2 text-base font-regular text-body-color sm:text-lg lg:text-base xl:text-lg">
-                    支持 OPC UA、Modbus TCP/RTU、西门子S7 PLC 等工业通信协议
+                    实时数据采集和展示，用户可以查看工业设备的运行状态、生产数据、报警信息等
                     </li>
                     <li className="mb-2 text-base font-regular text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      支持 MQTT、HTTP、TCP/UDP 等通信协议
-                    </li>
-                    <li className="mb-2 text-base font-regular text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      支持与三方系统数据对接、集成，协议定制开发
+                    支持多种数据图表形式，包括趋势图、柱状图、饼图等，方便用户分析和决策
                     </li>
                   </ul>
-
-                  <h3 className="font-xl mb-10 font-regular leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    实时监测与控制
-                  </h3>
-                  <p className="mb-10 text-base font-regular leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                  实时展示设备运行状态和关键参数，提供历史数据查询和分析，
-                  支持设备控制指令和参数的下发，确保用户能够高效、精准地监控和调控设备及工艺流程，实现系统的高效管理和稳定运行。
-                  </p>
                  
-
                   <h3 className="font-xl mb-10 font-regular leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    丰富的组态能力
+                  远程控制
                   </h3>
-                  <p className="mb-10 text-base font-regular leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                  基于 Web 的可视化组态编辑器，创建现代化的工业控制界面
-                  </p>
                   <ul className="mb-10 list-inside list-disc text-body-color">
                     <li className="mb-2 text-base font-regular text-body-color sm:text-lg lg:text-base xl:text-lg">
-                    拖拽编辑组态，简单易用上手快
+                    用户可以通过移动设备对工业设备进行远程操作和控制，包括启动、停止、调整参数等
                     </li>
                     <li className="mb-2 text-base font-regular text-body-color sm:text-lg lg:text-base xl:text-lg">
-                    数据绑定，实时动态数据显示、指令下发，双向数据通信
+                    支持多用户管理和权限控制，确保操作的安全性和合规性
+                    </li>
+                  </ul>
+                
+                  <h3 className="font-xl mb-10 font-regular leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                  报警和通知
+                  </h3>
+                  <ul className="mb-10 list-inside list-disc text-body-color">
+                    <li className="mb-2 text-base font-regular text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    实时报警推送，用户可以及时收到设备故障或异常的通知
                     </li>
                     <li className="mb-2 text-base font-regular text-body-color sm:text-lg lg:text-base xl:text-lg">
-                    行业图形库和案例模板，支持快速、批量组态
+                    支持自定义报警规则和阈值设置，确保用户能在第一时间处理紧急情况
+                    </li>
+                  </ul>
+
+                  <h3 className="font-xl mb-10 font-regular leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                  数据管理
+                  </h3>
+                  <ul className="mb-10 list-inside list-disc text-body-color">
+                    <li className="mb-2 text-base font-regular text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    支持访问和查询过去的生产数据和设备运行记录，方便地进行数据分析和报告生成
+                    </li>
+                    <li className="mb-2 text-base font-regular text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    支持云端存储，保证数据的安全性和可访问性
                     </li>
                   </ul>
                   
                   <h3 className="font-xl mb-10 font-regular leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    海量设备物联管理
+                  运维巡检（待）
                   </h3>
-                  <p className="mb-10 text-base font-regular leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                  支持设备及其技术参数、物模型、通讯协议的创建和编辑，实时监控设备状态，管理设备数据采集和通信，确保设备高效运行和维护。
-                  </p>
-
-                  <h3 className="font-xl mb-10 font-regular leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    告警配置与管理
-                  </h3>
-                  <p className="mb-10 text-base font-regular leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                  支持通用和自定义告警规则的创建、编辑和管理，实时监测设备状态，并通过多种方式推送告警信息。
-                  支持告警等级分类、历史告警查询、批量处理、告警统计分析和告警信息导出等，确保及时响应和处理异常。
-                  </p>
-
-                  <h3 className="font-xl mb-10 font-regular leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    报表生成与管理
-                  </h3>
-                  <p className="mb-10 text-base font-regular leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                  支持报表模板的创建和上传、定时报表生成、报表数据填充和在线预览，历史报表的查询与下载，
-                  数据集和数据源的灵活管理，确保用户能够高效地生成和管理各类报表，实现数据的系统化呈现与分析。
-                  </p>
-                  
-                  <h3 className="font-xl mb-10 font-regular leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    数据权限与用户管理
-                  </h3>
-                  <p className="mb-10 text-base font-regular leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                  支持用户的新增、删除和信息修改，角色的创建与权限分配，系统菜单的定制与管理，
-                  以及组织架构的展示和用户分配，确保数据访问的安全性和系统管理的高效性。
-                  </p>
-                  
+                  <ul className="mb-10 list-inside list-disc text-body-color">
+                    <li className="mb-2 text-base font-regular text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    根据设备和生产线的需求制定巡检计划，包括巡检时间、频率和任务
+                    </li>
+                    <li className="mb-2 text-base font-regular text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    自动生成巡检任务，用户可通过移动端查看和管理巡检任务
+                    </li>
+                    <li className="mb-2 text-base font-regular text-body-color sm:text-lg lg:text-base xl:text-lg">
+                    巡检过程中设备状态、故障情况等信息记录上传，自动生成巡检报告，方便后续分析处理
+                    </li>
+                  </ul>           
 
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-regular italic text-body-color">
-                    viSCADA Web 融合了英集动力在数智化能源管理领域的最佳实践，是高效实现现代化能源管理的理想选择。
+                    viSCADA App 是一款集实时监控、远程控制、报警通知、数据管理和运维巡检于一体的随身智慧能源管家。
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
