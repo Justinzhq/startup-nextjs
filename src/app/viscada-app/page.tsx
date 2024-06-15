@@ -29,7 +29,7 @@ const BlogDetailsPage = () => {
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
+                        src="/images/blog/viscada-app-01.png"
                         alt="image"
                         fill
                         className="object-cover object-center"
@@ -86,7 +86,7 @@ const BlogDetailsPage = () => {
                   </ul>
                   
                   <h3 className="font-xl mb-10 font-regular leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                  运维巡检（待）
+                  运维巡检
                   </h3>
                   <ul className="mb-10 list-inside list-disc text-body-color">
                     <li className="mb-2 text-base font-regular text-body-color sm:text-lg lg:text-base xl:text-lg">

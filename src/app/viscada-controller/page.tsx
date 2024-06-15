@@ -27,9 +27,9 @@ const BlogDetailsPage = () => {
                   集成了强大的计算能力、灵活的连接选项和高效的实时数据处理功能，可实现设备数据采集、传输、存储、处理、分析和控制，满足不同行业的数据采集和控制需求，是智能自动化和工业物联网（IIoT）解决方案的理想选择。
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
-                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/51]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
+                        src="/images/blog/viscada-controller-01.png"
                         alt="image"
                         fill
                         className="object-cover object-center"
