@@ -27,7 +27,7 @@ const BlogDetailsPage = () => {
                     提供高效、可靠、易用的配置功能，简化数据采集过程，提高数据采集的效率和准确性，确保数据的实时性和可靠性。
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
-                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/50]">
                       <Image
                         src="/images/blog/viscada-edge-01.png"
                         alt="image"

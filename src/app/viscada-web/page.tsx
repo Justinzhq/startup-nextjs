@@ -29,7 +29,7 @@ const BlogDetailsPage = () => {
                     
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
-                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/46]">
                       <Image
                         src="/images/blog/viscada-web-01.png"
                         alt="image"

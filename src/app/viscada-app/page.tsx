@@ -27,7 +27,7 @@ const BlogDetailsPage = () => {
                   它与 viSCADA Web 无缝集成，提供了远程实时监控、控制和工业过程管理的功能，使用户能够随时随地掌握能源系统的生产运行情况。
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
-                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
+                    <div className="relative aspect-[97/60] w-full sm:aspect-[97/50]">
                       <Image
                         src="/images/blog/viscada-app-01.png"
                         alt="image"
