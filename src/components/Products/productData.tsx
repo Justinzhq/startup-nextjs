@@ -24,7 +24,7 @@ const productData: Product[] = [
   },
   {
     id: 4,
-    title: "viSCADA Egde",
+    title: "viSCADA Edge",
     paragraph:"网关内置易于使用的配置工具来做数据采集与转发",
     image: "/images/blog/p-04.png",
     href: "/viscada-edge",
