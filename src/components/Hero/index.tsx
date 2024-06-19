@@ -19,7 +19,7 @@ const Hero = () => {
                   致力加速能源数智化低碳转型
                 </p>
                 <p className="mb-12 text-base leading-relaxed text-body-color dark:text-white sm:text-lg md:text-lg">
-                  IT 与 OT 融合的能源实时监测与智能控制解决方案，基于 Web 的敏捷部署和扩展，更加灵活、稳健且经济。
+                  IT 与 OT 融合的能源系统高效运营管理解决方案，基于 Web 的敏捷部署和扩展，更加灵活、稳健且经济。
                 </p>
                 <div className="flex flex-col items-center justify-start space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
