@@ -31,7 +31,7 @@ export default function Home() {
       <AboutSectionTwo />
       {/* <Testimonials /> */}
       {/* <Pricing /> */}
-      <Solution />
+      {/* <Solution /> */}
       {/* <Brands /> */}
       {/* <Contact /> */}
     </>
